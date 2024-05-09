@@ -22,3 +22,4 @@ console.log(isUnde)
 let someNumber =64
 let findNumber = String(someNumber)
 console.log(typeof findNumber)
+
