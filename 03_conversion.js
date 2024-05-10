@@ -11,15 +11,19 @@
 // console.log(valueNumber)
 
 
-let store = 1;
-let isStore = Boolean(store)
-console.log(isStore)
+// let store = 1;
+// let isStore = Boolean(store)
+// console.log(isStore)
 
-let unde = undefined;
-let isUnde = Number(unde)
-console.log(isUnde)
+// let unde = undefined;
+// let isUnde = Number(unde)
+// console.log(isUnde)
 
-let someNumber =64
-let findNumber = String(someNumber)
-console.log(typeof findNumber)
+// let someNumber =64
+// let findNumber = String(someNumber)
+// console.log(typeof findNumber)
 
+
+let x = 12
+ x++;
+console.log(x)
