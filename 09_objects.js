@@ -39,10 +39,10 @@ const marks = {
 const marks2 ={c:26,d:92}
 
 const marks3 = Object.assign({},marks,marks2)
-//console.log(marks3)
+console.log(marks3)
 
 const marks4 = {...marks,...marks2} // spread
-//console.log(marks4)
+console.log(marks4)
 
 // console.log(Object.keys(obj))
 // console.log(Object.values(obj))

@@ -35,7 +35,7 @@ function addCart(...num){    // rest operator
     return num
 }
 
-//console.log(addCart(10,457,495,2000))
+console.log(addCart(10,457,495,2000))
 
 
 const obj = {
