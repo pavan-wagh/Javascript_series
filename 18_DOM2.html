@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul class="lng">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    // const div = document.createElement('div')
+    // console.log(div)
+
+    // div.className ='main'
+    // div.id = 'myid'
+    // div.setAttribute('title','value')
+    // div.style.backgroundColor='orange'
+    // //div.innerText='DOM'
+
+    // const addText =document.createTextNode('js dom')
+    // div.appendChild(addText)
+
+    // document.body.appendChild(div)
+
+
+    function addlng(lngname){
+        const li = document.createElement('li')
+        li.innerHTML = `${lngname}`
+        document.querySelector('.lng').appendChild(li)
+    }
+
+    function addoptiLng(lngname){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(lngname))
+        document.querySelector('.lng').appendChild(li)
+    }
+
+    addlng('python')
+    addlng('go')
+
+    addoptiLng('ruby')
+    addoptiLng('c')
+
+
+    // edit
+
+    const secondLng =document.querySelector('li:nth-child(2)')
+    //secondLng.innerHTML = 'mojo'
+    const newli = document.createElement('li')
+    newli.textContent='mojo'
+    secondLng.replaceWith(newli)
+
+    // remove
+    const lastLng = document.querySelector('li:last-child')
+    lastLng.remove()
+</script>
+</html>
