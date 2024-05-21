@@ -1,0 +1,29 @@
+.button{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 2px solid black;
+}
+
+span{
+
+    display: block;
+}
+
+#grey{
+    background-color: gray;
+}
+
+#orange{
+    background-color: orangered;
+}
+
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color:blueviolet;
+}
+h2{
+    text-align: center;
+}
